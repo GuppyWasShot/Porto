@@ -1,0 +1,146 @@
+body {
+    background: url('bg.jpg');
+    background-size: 120%;
+}
+.background {
+    /* padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 5%;
+    padding-bottom: 20%; */
+    background: url('bg.jpg');
+    background-size: 120%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Agar logo di kiri, menu di kanan */
+    align-items: center;
+    padding: 15px 20px;
+    background-color: white;
+    width: 100%;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: gray;
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+}
+
+.btn-menu {
+    text-decoration: none;
+    color: gray;
+    padding: 10px 15px;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-menu:hover {
+    background-color: rgb(204, 204, 204);
+    border-radius: 5px;
+}
+
+.container {  
+    background-color: rgb(49, 46, 46);
+    color: red;
+    padding: 3%;
+    opacity: 0.8;
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    
+}
+
+h1{
+    color: red;
+    text-align: left;
+    opacity: 1;
+}
+
+hr {
+    text-align: center;
+    width: 100%;
+    height: 3px;
+    background-color: red;
+    border: none;
+    opacity: 1;
+}
+
+.parent-image{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.image{
+    border-radius: 5px;
+    opacity: 0.6;
+    width: 200px;
+    border: solid ;
+    border-color: white;
+    transition: 0.3s ease-in-out;
+}
+.image-a {
+    text-decoration: none;
+    opacity: 1;
+}
+
+.image:hover{
+    opacity: 1;
+    border-color: red;
+}
+
+.text{
+    opacity: 1;
+    font-size: 18px;
+    text-align: justify;
+    color: red;
+}
+
+dd{
+    opacity: 1;
+    font-size: 18px;
+    padding-left: 35%;
+    text-align: justify;
+    text-decoration: none;
+}
+
+.dd-a{
+    opacity: 1;
+    font-size: 18px;
+    padding-left: 35%;
+    text-align: justify;
+    text-decoration: none;
+    color: inherit;
+    transition: 0.3s ease-in-out;
+}
+
+.dd-a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+.text a{
+    text-decoration: none;
+    text-align: center;
+    color: red;
+}
+
+.video-container {
+    position: relative;
+    width: 100%; /* Lebar penuh */
+    max-width: 800px; /* Batasi lebar maksimal */
+    aspect-ratio: 16 / 9; /* Rasio aspek 16:9 */
+    margin: auto; /* Pusatkan video */
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px; /* Opsional: buat sudut membulat */
+}
